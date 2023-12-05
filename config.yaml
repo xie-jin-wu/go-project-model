@@ -1,0 +1,27 @@
+#http地址
+http_address: "0.0.0.0:9000"
+#pprof地址
+pprof_address: "0.0.0.0:9001"
+#程序日志输出等级(详见pkg/logs/option.go:LogLevel)
+program_log_level: 0
+#程序日志输出到文件(true:文件,false:终端)
+program_log_to_file: false
+#程序日志输出到文件目录名
+program_log_file_dir: "log"
+#http日志输出到文件(true:文件,false:终端)
+http_log_to_file: false
+#http日志输出到文件目录名
+http_log_file_dir: "http_log"
+mysql:
+  dns: "root:mysql@tcp(127.0.0.1:3306)/auth?charset=utf8mb4&parseTime=True&loc=Local"
+  debug: true
+redis:
+  ip: "127.0.0.1:6379"
+  password: "123456"
+  db: 0
+mongo:
+  address: "127.0.0.1:27017"
+  username: "root"
+  password: "mongo"
+
+
