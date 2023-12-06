@@ -1,11 +1,11 @@
 package main
 
 import (
+	"github.com/xie-jin-wu/logs"
 	"go-project-model/config"
 	"go-project-model/internal/biz"
 	"go-project-model/internal/data"
 	"go-project-model/internal/service"
-	"go-project-model/pkg/logs"
 	"log"
 )
 
